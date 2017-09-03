@@ -1,0 +1,190 @@
+#cartlistPag{
+    width: 100%;
+    height: 100%;
+    #cartConent{
+        width: 100%;
+        height: 100%;
+        .cart-empty{
+            width: 100%;
+            display: none;
+            img{
+                width: 50%;
+                height: 200px;
+                margin-left: 25%;
+            }
+            .empty{
+                font-size: 14px;
+                color: #92969C;
+                text-align: center;
+
+            }
+            
+        }
+        .gussyoulike{
+                width: 100%;
+                margin-top: 70px;
+               .like{
+                    font-size: 17px;
+                    color: #2C3038;
+                    text-align: center;
+                    display: none;
+                }
+                ul{
+                    width: 100%;
+                    li{
+                        float: left;
+                        width: 48%;
+                        height: 200px;
+                        margin:1%;
+                        img{
+                            width:100%;
+                            height: 120px;
+                            margin: 0;
+                        }
+                       .name{
+                            font-size: 14px;
+                            color: #2C3038;
+                        }
+                        .price{
+                            color: #FF3939;
+                            font-size: 12px;
+                            margin-top: 5px
+                        }
+                    }
+                }
+            }
+        .cart-full{
+            width: 100%;
+            .cartlistul{
+                width: 100%;
+                li{
+                    width: 100%;
+                    height: 150px;
+                    margin-bottom: 5px;
+                    position: relative;
+                    .radio{
+                        position: absolute;
+                        top: 70px;
+                        left: 15px;
+                        font-family: 'iconfont';
+                        font-size: 20px;
+                        color: #FF3939;
+                    }
+                    img{
+                        width: 150px;
+                        height: 100px;
+                        margin-top: 25px;
+                        margin-left: 40px;
+                    }
+                    .title{
+                        font-size: 13px;
+                        position: absolute;
+                        top:30px;
+                        left: 55%;
+                    }
+                    .price{
+                        color: #FF3939;
+                        font-size: 13px;
+                        position: absolute;
+                        top: 55px;
+                        left: 55%;
+                    }
+                    .singlepri{
+                        position: absolute;
+                        top: 54px;
+                        right: 20px;
+                        color: #ff3939;
+                        font-size: 13px;
+                    }
+                    .btns{
+                        width: 150px;
+                        height:30px;
+                        position: absolute;
+                        bottom: 30px;
+                        left: 55%;
+                        .minus{
+                            width:20px;
+                            height: 30px;
+                            border: 0;
+                            outline: none;
+                            color: #FF3939;
+                        }
+                        .count{
+                            display: inline-block;
+                            width:20px;
+                            height: 30px;
+                            font-size: 13px;
+                            text-align: center;
+                            line-height: 30px;
+                            color: #FF3939;
+                            
+                        }
+                        .add{
+                            width:20px;
+                            height: 30px;
+                            border: 0;
+                            outline: none;
+                            color: #FF3939;
+                            
+                        }
+                        .del{
+                            font-family: 'iconfont';
+                            position: absolute;
+                            right: 0px;
+                            bottom: 0px;
+                            font-size: 30px;
+                            color: #E0E0E0;
+                        }
+                    }
+                    
+                }
+            }
+        }
+
+        .Settlement{
+            width: 100%;
+            height: 50px;
+            background: #e3e3e3;;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            display: none;
+            .goSettlement{
+                display: block;
+                width: 100px;
+                height: 50px;
+                background: #FF3939;
+                color: #fff;
+                text-align: center;
+                line-height: 50px;
+                position: absolute;
+                right: 0;
+                top: 0;
+            }
+            .allchose{
+                 position: absolute;
+                top:15px;
+                left: 15px;
+                font-family: 'iconfont';
+                font-size: 20px;
+                color: #FF3939;
+
+            }
+            .class{
+                position: absolute;
+                top: 15px;
+                left: 50px;
+                color: #FF3939;
+                 font-size: 13px;
+            }
+            .totalprice{
+                    position: absolute;
+                    top: 15px;
+                    left: 150px;
+                    color: #FF3939;
+                    font-size: 13px;
+            }
+        }
+        
+    }
+}

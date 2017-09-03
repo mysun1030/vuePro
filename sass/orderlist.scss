@@ -1,0 +1,142 @@
+
+#settlePag{
+    width: 100%;
+    height: 100%;
+    #settleContent{
+        width: 100%;
+        .product-group{
+            width: 90%;
+            margin-left: 5%;
+            .group-title{
+                font-size: 14px;
+                color: #1A1A1A;
+                height: 50px;
+                line-height: 50px;
+                text-indent: 12px;
+            }
+            .prolist{
+                width: 100%;
+                border-top: 1px solid #C7C9CE;
+                li{
+                    width: 100%;
+                    height: 50px;
+                    border-bottom: 1px solid #DFE0E3;
+                    position: relative;
+                    .proShortName{
+                        display: inline-block;
+                        font-size: 13px;
+                        margin-top: 5px;
+                    }
+                    .proSepcName{
+                        position: absolute;
+                        top: 24px;
+                        left: 5px;
+                        font-size: 12px;
+                        color: #D4D6D8;
+                    }
+                    .proSpec{
+                        position: absolute;
+                        top: 24px;
+                        left: 45px;
+                        font-size: 12px;
+                        color: #D4D6D8;
+                    }
+                    .product-price{
+                        position: absolute;
+                        top:10px;
+                        right: 5px;
+                        font-size: 12px;
+                    }
+                }
+            }
+            .totalpri{
+                width: 100%;
+                height: 40px;
+                border-top: 1px solid #e3e3e3;
+                border-bottom: 1px solid #e3e3e3;
+                line-height: 40px;
+                margin-top: 60px;
+                font-size: 13px;
+                .money{
+                    float: right;
+                    margin-right: 10px;
+                    font-size: 14px;
+                }
+            }
+        }
+        .gopay{
+            width: 100%;
+            height: 50px;
+            border-top: 1px solid #e3e3e3;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            .paybtn{
+                display: block;
+                width: 100px;
+                height: 50px;
+                background: #ff3939;
+                color: #fff;
+                text-align: center;
+                line-height: 50px;
+                float: right;
+            }
+            .tipmo{
+                color: #ff3939;
+                line-height: 50px;
+                font-size: 13px;
+                margin-left: 10%;
+            }
+        }
+        .payway{
+                width: 100%;
+                height: 100%;
+                background-color:rgba(0,0,0,0.5);
+                position: absolute;
+                top: 0;
+                left: 0;
+                div{
+                    width: 300px;
+                    height: 300px;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    margin: auto;
+                    background: #fff;
+                    .quxiao{
+                        display: block;
+                        height: 30px;
+                        width: 30px;
+                        background: #FF3939;
+                        color: white;
+                        position: absolute;
+                        top: 0px;
+                        left: 0px;
+                        text-align: center;
+                        line-height: 30px;
+                    }
+                    .ok{
+                        display: block;
+                        height: 30px;
+                        width: 30px;
+                        background: #FF3939;
+                        color: white;
+                        position: absolute;
+                        top: 0px;
+                        right: 0px;
+                        text-align: center;
+                        line-height: 30px;
+                    }
+                    img{
+                        width: 240px;
+                        height: 240px;
+                        margin-top: 40px;
+                        margin-left:30px;
+                    }
+                }
+                
+        }
+    }
+}

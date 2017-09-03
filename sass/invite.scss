@@ -1,0 +1,34 @@
+#invitePag{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    #inviteContent{
+        width: 100%;
+        flex: 1;
+        .banner{
+            width: 100%;
+            height: 150px;
+        }
+        .desc{
+            font-size: 14px;
+            color: #75787C;
+            padding-top: 20px;
+            width: 90%;
+            margin-left: 5%;
+        }
+        .invite-btn{
+            width: 30%;
+            height: 50px;
+            color: #FFFFFF;
+            background: #ff3939;
+            text-align: center;
+            line-height: 50px;
+            border-radius: 5px;
+            border:0;
+            outline: none;
+            margin-top: 20px;
+           margin-left: 35%;
+        }
+    }
+}

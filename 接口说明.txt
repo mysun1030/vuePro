@@ -1,0 +1,32 @@
+1 首页  https://api.ricebook.com/hub/home/v1/web/week_choice.json?city_id=140&page=0
+    city_id=140  为变量 在头部选择地址的时候需要改变  page为下拉加载更多。
+2 首页搜索结果接口 https://api.ricebook.com/3/enjoy_product/search.json?city_id=185&keyword=2&page=0
+    page  keyword  city_id 为变量  city_id =1 表示全国，其他城市则根据其id来判断。
+    city_id使用parmas传送，keyword使用query传送。
+3 首页分类 https://api.ricebook.com/hub/home/v1/virtual/category.json?city_id=140&is_new_local=true 
+    city_id 为变量
+4 首页列表进入详情页面 https://api.ricebook.com/product/info/product_detail.json?product_id=1038522&sub_product_id=5081146
+    product_id   sub_product_id  为变量
+5 购物车为空的时候 显示 猜你喜欢的商品  https://api.ricebook.com/3/enjoy_product/cart_recommend_product.json?city_id=1
+  购物车不为空的时候 显示 猜你喜欢的商品  https://api.ricebook.com/3/enjoy_product/cart_recommend_product.json?city_id=1
+
+6 底部discovery https://api.ricebook.com/hub/home/v1/web/explore.json?city_id=185
+7 分类进列表 https://api.ricebook.com/4/tab/category_product_list.json?category_id=5&sort=1&from_id=0&city_id=140&page=0
+
+8 查看更多 https://api.ricebook.com/hub/home/v1/web/category_detail.json?city_id=140&category_id=61&type=choice&page=0
+tip
+9 排序接口https://api.ricebook.com/4/tab/sub_category.json?category_id=12&city_id=140&from_id=0
+    category_id=12&city_id=140为变量
+    登录成功存入 var login = localStorage.getItem('hadlogin');
+		if(login == null){
+			this.$router.push({
+				name:'login'
+			})
+		}  success
+    点击去结算时 判断是否全选  若没全选 存 allgoods false;
+    搜藏商品成功 存  islovegoods   {obj}
+    存储收货地址  address    [{obj}]
+
+    从cartlist去order 传state  100  多个商品
+    从detail去order   传state  200  本页面商品
+    detail页面单独点击立即购买存  buynow  {obj}
